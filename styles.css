@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chrome 1';
+    background: linear-gradient(135deg, #b7afa3, #e8d0a9);
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 100px;
+}
+
+header {
+    background-color: #e8d0a9;
+    color: #4f6e75;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #6d929b;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5fafa;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #97693e;
+}
+
+.section-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #c1dad6;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4d6c74;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    color: #44666e;
+}
+
+form input {
+    padding: 12px;
+    border: 3px solid #959fac;
+    border-radius: 5px;
+}
+
+form input:focus {
+    border-color: #6699cc;
+    outline: none;
+}
+
+.btn {
+    background: linear-gradient(to right, #9e87f0, #476168);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #4bff33, #296600);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #6d929b;
+    padding: 15px;
+    text-align: left;
+}
+
+thead {
+    background-color: #194d5a;
+    color: white;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#search:focus {
+    border-color: #6699cc;
+    outline: none;
+}
+
+footer {
+    background-color: #577279;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
