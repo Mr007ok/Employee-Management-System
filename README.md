@@ -47,25 +47,6 @@ The **Employee Management System** is a lightweight web-based solution designed 
 - **JavaScript**: For handling functionality, including adding, promoting, and removing employees.
 - **localStorage API**: Used to store employee data locally in the browser, enabling persistence without external storage.
 
-## **How to Run the Project**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/employee-management-system.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd employee-management-system
-   ```
-
-3. Open the `index.html` file in your browser to start using the Employee Management System.
-
-## **Future Enhancements**
-
-- **Edit Employee Records**: Add the ability to edit employee details such as name, department, and performance.
-- **Data Export/Import**: Enable users to export and import employee data in CSV format for external backups.
-- **Backend Integration**: Integrate with a backend database to manage data across multiple devices.
 
 ## **Project Output**
 
